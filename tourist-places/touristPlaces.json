@@ -1,0 +1,78 @@
+[{
+    "name": "Музей Булгакова",
+    "img": "https://avatars.mds.yandex.net/get-pdb/70729/07ca2c0d-47f0-49ff-9dbc-982d58e64ac5/s1200",
+    "latitude": 50.4605,
+    "longitude": 30.5148,
+    "address": "г.Киев, Андреевский спуск, 13",
+    "timeStart": "10:00",
+    "timeEnd": "18:00",
+    "description": "Литературно-мемориальный дом-музей Михаила Афанасьевича Булгакова. Основан в 1989 году.",
+    "ticketPrice": 120,
+    "averageTime": 70
+}, {
+    "name": "Музей воды",
+    "img": "https://s3-eu-west-1.amazonaws.com/media.agentika.com/user/93b4e89a-c861-4ca3-87f5-2633c1ecc1dc.jpeg",
+    "latitude": 50.4531,
+    "longitude": 30.5305,
+    "address": "г.Киев, ул. Грушевского, 1-в",
+    "timeStart": "10:00",
+    "timeEnd": "17:00",
+    "description": "Водно-информационный центр в помещениях старинных водонапорных башен и резервуаров. Экспозиция Музея воды знакомит посетителей с природой круговорота воды, технологией водозабора, водоснабжения и канализации.",
+    "ticketPrice": 70,
+    "averageTime": 50
+}, {
+    "name": "Дом с химерами",
+    "img": "https://s.zagranitsa.com/images/articles/5062/870x486/aa3f4205bb41e77fdada6134af33bc48.jpg?1480426401",
+    "latitude": 50.445,
+    "longitude": 30.5286,
+    "address": "г.Киев, ул. Банковая, 10",
+    "timeStart": "10:00",
+    "timeEnd": "18:00",
+    "description": "Уникальный особняк, декорированный фантастическими скульптурами (химерами) сказочных животных. Здание находится вблизи Администрации Президента Украины.",
+    "ticketPrice": 100,
+    "averageTime": 60
+}, {
+    "name": "Национальный дом органной и камерной музыки",
+    "img": "https://susanintop.com/wp-content/uploads/2019/01/02-Krasivye-neobychnye-mesta-dlya-svadebnykh-fotosessiy-Kiev-i-oblast-Nikolaevskiy-kostel-istoriya.jpg",
+    "latitude": 50.4272,
+    "longitude": 30.5175,
+    "address": " г.Киев, ул. Б.Васильковская, 75",
+    "timeStart": "11:00",
+    "timeEnd": "22:00",
+    "description": "Римско-католический костёл Святого Николая в Киеве, используемый с 1980 года в качестве Дома органной и камерной музыки.",
+    "ticketPrice": 80,
+    "averageTime": 90
+}, {
+    "name": "Киевский фуникулер",
+    "img": "https://ic.pics.livejournal.com/tov_tob/21010671/2954783/2954783_original.jpg",
+    "latitude": 50.458639,
+    "longitude": 30.524231,
+    "address": "г.Киев, ул. Сагайдачного, 3 (пл. Почтовая)",
+    "timeStart": "7:00",
+    "timeEnd": "23:00",
+    "description": "Линия фуникулёра в Киеве, которая проходит по крутому склону Владимирской горки и соединяет две части города: Подол с Верхним городом.",
+    "ticketPrice": 50,
+    "averageTime": 20
+}, {
+    "name": "Пейзажная аллея",
+    "img": "https://woman-project.com/uploads/1338930000/c57692e0dc3bee.jpg",
+    "latitude": 50.456161,
+    "longitude": 30.51535,
+    "address": "г.Киев, пер. Десятинный",
+    "timeStart": "7:00",
+    "timeEnd": "23:00",
+    "description": "Парк скульптур из мозаики, созданный на месте срытых оборонных валов Верхнего города.",
+    "ticketPrice": 10,
+    "averageTime": 45
+}, {
+    "name": "Парк-музей «Украина в миниатюре»",
+    "img": "https://my-kiev.com/wp-content/uploads/2020/02/a8fc65c1b3e24e4a9e5a8c66d7c9dff0.jpg",
+    "latitude": 50.448889,
+    "longitude": 30.413333,
+    "address": "г.Киев, пр. Броварской, 9-в",
+    "timeStart": "10:00",
+    "timeEnd": "19:00",
+    "description": "Выставка макетов самых известных достопримечательностей Украины под открытым небом.",
+    "ticketPrice": 80,
+    "averageTime": 70
+}]

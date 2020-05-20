@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Document</title>
+    <link rel="stylesheet" href="style/main_pract-2.css" type="text/css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <img src="https://bin.ua/uploads/posts/2013-01/1357211023_21.jpg" class="logo">
+    <h3>Составление туристического маршрута по Киеву</h3>
+
+    <div id="app">
+        <div id="map"></div>
+
+        <div class="main-block">
+            <div class="main-title">Выбранные точки маршрута:</div>
+            <div id="time-start"><i class="material-icons">access_time</i> начало прогулки
+                <input type="time" id="start" />
+            </div>
+
+            <div id="route-points"></div>
+
+            <div class="calculate-block">
+                <div class="end-block">
+                    <div id="time-end"><i class="material-icons">access_time</i> окончание прогулки - <span id="total-time"></span></div>
+                    <div id="total-price"><i class="material-icons">attach_money</i> прогулки - <span id="total-cost"></span></div>
+                </div>
+                <button type="button" id="calculate-button">Рассчитать</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=413ab14e-c74f-4cd6-ba0f-0a94efc4044f&lang=ru_RU" type="text/javascript"></script>
+    <script src="dist/main.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js"></script>
+
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="/__/firebase/7.14.4/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="/__/firebase/7.14.4/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="/__/firebase/7.14.4/firebase-auth.js"></script>
+    <script src="/__/firebase/7.14.4/firebase-firestore.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAR_hkAP9TkNcU_julq5ug4FUp8amKcXB4",
+            authDomain: "tourist-places-e9356.firebaseapp.com",
+            databaseURL: "https://tourist-places-e9356.firebaseio.com",
+            projectId: "tourist-places-e9356",
+            storageBucket: "tourist-places-e9356.appspot.com",
+            messagingSenderId: "189005660194",
+            appId: "1:189005660194:web:84f9e1b0ed518e6b8e0a7b",
+            measurementId: "G-3TTZFQEKWM"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <script src="/__/firebase/init.js"></script>
+</body>
+
+</html>

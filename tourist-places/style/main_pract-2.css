@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(250, 250, 250);
+    color: rgb(46, 53, 46);
+}
+
+.logo {
+    width: 20%;
+    margin-left: 40%;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 3px solid rgb(220, 223, 222);
+    box-shadow: 0px 5px 3px rgb(220, 223, 222);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+#app {
+    display: flex;
+}
+
+#map {
+    width: 55%;
+    height: 100vh;
+    margin-top: 20px;
+}
+
+.balloon-content {
+    display: flex;
+    align-items: center;
+}
+
+.balloon-content .image img {
+    width: 200px;
+    height: 150px;
+}
+
+.balloon-content .text {
+    margin-left: 15px;
+}
+
+.balloon-content .text .title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.balloon-content .text .description {
+    font-size: 12px;
+}
+
+.pictogram {
+    display: flex;
+    justify-content: space-between;
+}
+
+.balloon-content .text .price,
+.balloon-content .text .average-time {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: rgb(194, 218, 219);
+    border: 2px solid rgb(177, 200, 201);
+    border-radius: 7px;
+    padding: 2px;
+    margin: 7px;
+}
+
+.balloon-content .text .price i,
+.balloon-content .text .average-time i {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.add-route {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(251, 251, 251);
+    background-color: rgb(131, 127, 127);
+    border: 1px solid lightslategray;
+    border-radius: 3px;
+    margin-left: 35%;
+    margin-top: 7px;
+    padding: 4px 10px;
+}
+
+.main-block {
+    width: 45%;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 3px solid rgb(220, 223, 222);
+    box-sizing: border-box;
+    padding: 13px;
+    margin: 5px 25px;
+}
+
+.place-info {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+    margin: 20px 10px;
+}
+
+.place-info .name {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+#time-start,
+#time-end,
+#total-price {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(46, 45, 45);
+    padding: 1px;
+}
+
+#time-start i,
+#time-end i {
+    font-size: 17px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+#time-start {
+    margin: 5px 0 10px 120px;
+}
+
+#time-start #start {
+    font-size: 14px;
+    width: 80px;
+    padding: 2px;
+    margin-left: 20px;
+}
+
+#start {
+    border: 1px solid rgb(211, 210, 210);
+}
+
+.place-info .add-info {
+    font-style: italic;
+    line-height: 1.7;
+    margin-left: 35px;
+}
+
+.place-info .add-info .bold {
+    font-weight: 500;
+}
+
+.add-info .geoCoord {
+    display: none;
+}
+
+.dist-info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+
+.dist-info .walk-distance,
+.dist-info .walk-time {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(46, 45, 45);
+    padding: 1px;
+    margin: 3px;
+}
+
+.dist-info .walk-distance i,
+.dist-info .walk-time i {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.calculate-block {
+    display: flex;
+    align-items: center;
+    border-top: 2px solid rgb(220, 223, 222);
+    padding-top: 20px;
+    margin: 50px 25px;
+}
+
+.end-block {
+    display: flex;
+    flex-direction: column;
+}
+
+#total-price,
+#time-end {
+    margin: 5px 0 10px 95px;
+}
+
+#total-price i {
+    font-size: 17px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+#calculate-button {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(251, 251, 251);
+    background-color: rgb(131, 127, 127);
+    border: none;
+    box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 2px rgb(177, 175, 175);
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: 120px;
+}
+
+@media print {
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12pt;
+        background-color: rgb(255, 255, 255);
+        color: rgb(40, 41, 40);
+        margin: 2cm;
+    }
+    .logo,
+    #map {
+        display: none;
+    }
+    .main-block {
+        width: 100%;
+    }
+    .add-info .geoCoord {
+        display: block;
+    }
+    .add-info .price,
+    .add-info .average-time {
+        display: none;
+    }
+}
